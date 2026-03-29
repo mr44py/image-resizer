@@ -9,7 +9,7 @@ def process_image(input_path):
             print(f"Error: File {input_path} not found")
             return
 
-        
+        # change target size here 
         img = Image.open(input_path)
         target_size = (1280, 800)
         
