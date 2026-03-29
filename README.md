@@ -7,9 +7,6 @@ A simple Python tool to resize and crop images to 1280x800 (standard for Chrome 
 
 ## Usage
 
--Run pip install pillow to install Pillow library in terminal, (prefereably isolate in .venv)
--Change photo target size in fixer.py - code line #14
--In terminal open folder where the fixer.py file is located then run:
- python3 fixer.py your_image.jpg
-
-
+- Run `pip install pillow` to install the Pillow library in your terminal (preferably isolated in a .venv).
+- Change the photo's target size in `fixer.py` on code line #14.
+- In your terminal, open the folder where the `fixer.py` file is located, then run: `python3 fixer.py your_image.jpg`
